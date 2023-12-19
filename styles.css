@@ -1,0 +1,537 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ root {
+     --StrongCyan: hsl(171, 66%, 44%);
+     --LightBlue: hsl(233, 100%, 69%);
+
+
+     --DarkGrayishBlue: hsl(210, 10%, 33%);
+     --GrayishBlue: hsl(201, 11%, 66%);
+ }
+
+ body {
+     font-family: 'Bai Jamjuree', sans-serif;
+     background-image: url(./clipboard-landing-page-master/images/bg-header-desktop.png);
+     background-repeat: no-repeat;
+     /* background-position: 550px -5px; */
+ }
+
+ section {
+     display: flex;
+     flex-direction: column;
+     place-content: center;
+     place-items: center;
+     margin: 0 auto;
+ }
+
+ #header {
+     display: flex;
+     flex-direction: column;
+     place-content: center;
+     place-items: center;
+     width: 100%;
+     padding-top: 100px;
+ }
+
+ #header img {
+     padding-bottom: 25px;
+ }
+
+ #subheader {
+     color: black;
+     font-size: 30px;
+     font-weight: 900;
+     padding-top: 25px;
+     padding-bottom: 8px;
+     opacity: 80%;
+ }
+
+ #text {
+     font-size: 15px;
+     text-align: center;
+     width: 35%;
+     color: var(--GrayishBlue);
+     opacity: 50%;
+     padding-bottom: 15px;
+     line-height: 20px;
+
+ }
+
+ #downloads {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 18px;
+     padding-top: 15px;
+     padding-bottom: 20px;
+ }
+
+ #ios {
+     background-color: hsl(171, 66%, 44%);
+     border-radius: 20px;
+     color: white;
+     align-items: center;
+     padding: 17px 13px 13px 17px;
+     font-size: 13px;
+     box-shadow: 3px 3px 3px hsl(171, 66%, 44%);
+     transition: all 0.5s ease-in-out;
+ }
+
+ #ios:hover {
+     transform: scale(1.2);
+     transition: transform 0.5s ease-in-out;
+     cursor: pointer;
+ }
+ #mac {
+     background-color: hsl(233, 100%, 69%);
+     border-radius: 20px;
+     color: white;
+     align-items: center;
+     padding: 15px 13px 13px 15px;
+     font-size: 13px;
+     box-shadow: 3px 3px 3px hsl(233, 100%, 69%);
+     transition: all 0.5s ease-in-out;
+ }
+ #mac:hover {
+     transform: scale(1.2);
+     transition: transform 0.5s ease-in-out;
+     cursor: pointer;
+ }
+ #subheader1 {
+     color: black;
+     font-size: 20px;
+     font-weight: 700;
+     opacity: 80%;
+     padding-bottom: 15px;
+     padding-top: 45px;
+ }
+ #firstcontent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+
+    gap: 3rem;
+    margin-top: 2rem;
+ }
+ .laptop {
+   transform: translateX(-2rem);
+ }
+.laptop img {
+    width: 100%;
+}
+ #details {
+     display: flex;
+     flex-direction: column;
+     margin-top: 2rem;
+     gap: 3rem;
+     width: fit-content;
+ }
+ 
+ #subheader2 {
+     color: black;
+     font-size: 20px;
+     font-weight: 700;
+     opacity: 80%;
+     padding-bottom: 15px;
+ }
+ #text1 {
+     width: 55%;
+     padding-bottom: 15px;
+     opacity: 50%;
+     font-size: 15px;
+     line-height: 20px;
+ }
+
+ #secondcontent {
+     display: flex;
+     flex-direction: column;
+     place-content: center;
+     place-items: center;
+ }
+
+ #secondcontent img:hover {
+     transform: scale(1.2);
+     transition: transform 0.5s ease-in-out;
+     cursor: pointer;
+ }
+
+ #secondcontent {
+     transition: all 0.5s ease-in-out;
+ }
+
+ #text2 {
+     width: 50%;
+     padding-bottom: 15px;
+     opacity: 50%;
+     font-size: 15px;
+     text-align: center;
+     line-height: 17px;
+ }
+
+ #secondcontent img {
+     width: 70%;
+     padding-top: 35px;
+ }
+
+ #text3 {
+     width: 100%;
+     padding-bottom: 15px;
+     opacity: 50%;
+     font-size: 15px;
+     line-height: 17px;
+ }
+
+ #thirdcontent {
+     text-align: center;
+ }
+
+ #submain {
+     display: flex;
+     flex-direction: row;
+     /* width: 60% */
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+    flex-wrap: wrap;
+     gap: 30px;
+ }
+
+ #text4 {
+     width: 300px;
+     padding-bottom: 15px;
+     opacity: 50%;
+     font-size: 15px;
+     line-height: 18px;
+     text-align: center;
+ }
+
+ #submain1workflow {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     place-content: center;
+     place-items: center;
+     flex-wrap: wrap;
+ }
+
+ #submain1workflow:hover {
+     transform: scale(1.2);
+     transition: transform 0.5s ease-in-out;
+     cursor: pointer;
+ }
+
+ #submain1workflow {
+     transition: all 0.5s ease-in-out;
+ }
+
+ #submain1workflow img {
+     align-items: center;
+     place-content: center;
+     place-items: center;
+ }
+
+ #icons {
+     display: flex;
+     flex-direction: row;
+     gap: 80px;
+     padding-top: 30px;
+     align-items: center;
+     justify-content: center;
+     place-items: center;
+     place-content: center;
+     padding-bottom: 100px;
+     margin-left: 70px;
+     width: 80%;
+     flex-wrap: wrap;
+ }
+
+ #icons img {
+     width: 12%;
+     height: 17%;
+ }
+
+ #submain1 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     place-items: center;
+     place-content: center;
+     padding-bottom: 45px;
+ }
+
+ #text5 {
+     width: 68%;
+     opacity: 50%;
+     font-size: 15px;
+     line-height: 18px;
+     text-align: center;
+     margin-bottom: 25px;
+ }
+
+ #footer {
+     display: flex;
+     flex-direction: row;
+     padding-top: 70px;
+     width: 100%;
+     gap: 55px;
+     background-color: rgb(246, 246, 246);
+     align-items: center;
+     place-items: center;
+     place-content: center;
+     padding-bottom: 35px;
+     justify-content: space-between;
+     border: 1px;
+     width: 700px;
+    max-width: 100%;
+ }
+ #footer img {
+     width: 20px;
+ }
+ #footer p {
+     width: 100%;
+     opacity: 50%;
+     font-size: 10px;
+     line-height: 17px;
+     text-align: center
+ }
+ .mainfooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+ }
+ #footer1 {
+     display: flex;
+     flex-direction: column;
+ }
+ #footer1 p {
+    font-size: 1rem;
+ }
+ #bottomicon {
+     gap: 20px;
+     display: flex;
+     flex-direction: row;  
+ }
+ #firstfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+ }
+ #footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+ }
+ #firstfooter img {
+width: 15%;
+ }
+#bottomicon {
+    display: flex;
+    gap: 1rem;
+}
+ #bottomicon img {
+     width: 25%;
+ }
+
+ #submain1workflow img {
+     padding-bottom: 15px;
+ }
+
+ @media (max-width:900px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        place-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto; 
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        place-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        padding-top: 100px;
+    }
+    #firstcontent{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        place-content: center;
+        justify-content: center;
+         margin: 0 auto; 
+         width: 100%;
+    } 
+
+    .laptop {
+        transform: translateX(0rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    #firstcontent img{
+        margin-left: 0;
+        width: 80%;
+    }
+    #text {
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+        color: var(--GrayishBlue);
+        opacity: 50%;
+        padding-bottom: 15px;
+        line-height: 20px;
+    }
+     #details{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        place-content: center;
+        place-items: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-left: 0rem;
+        gap: 25px;
+        width: 90%;
+    } 
+    #text1{
+        width: 90%;
+    }
+   #text2{
+    width: 90%;
+   }
+   #secondcontent img{
+    width: 700px;
+   }
+#submain{
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+}
+
+#submain1{
+    width: 100%;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+ width: 100%;  
+    border: 1px;
+
+}
+.mainfooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+ }
+ #firstfooter img{
+    width: 10%;
+ }
+ }
+ @media (max-width:600px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+        place-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .mainfooter {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(246, 246, 246);
+        flex-wrap: wrap;
+     }
+     #secondcontent img{
+        width: 80%;
+     }
+     #text1{
+        width: 100%;
+     }
+     #subheader{
+        text-align: center;
+        width: 90%;
+     }
+     #details{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        place-content: center;
+        place-items: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-left: 0rem;
+        gap: 25px;
+        width: 90%;
+        flex-wrap: wrap;
+        text-align: center;
+     }
+     #icons{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0;
+        padding-bottom: 0;
+     }
+     #icons img{
+width: 40%;
+     }
+     #footer1 p{
+        font-size: 0.7rem;
+     }
+     #firstfooter{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+     }
+     #firstfooter img{
+        width:20%;
+     }
+     #footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: fit-content;
+     }
+     #downloads{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+     }
+     #ios{
+        width: 90%;
+        text-align: center;
+     }
+     #mac{
+        width: 90%;
+        text-align: center;
+     }
+     #subheader1{
+        text-align: center;
+     }
+ }
